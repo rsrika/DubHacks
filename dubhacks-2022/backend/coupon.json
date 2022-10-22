@@ -1,3 +1,25 @@
+[
 {
-    
+    "name_product" : "Breyer's Ice Cream",
+    "name_compoany " : "Breyer",
+    "type" : "ice cream",
+    "store_name" : "QFC",
+    "expiry_date" : "25th October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten" : "yes",
+    "location" : "98195"
+},
+{
+    "name_product" : "Breyer's Ice Cream",
+    "name_compoany " : "Breyer",
+    "type" : "ice cream",
+    "store_name" : "QFC",
+    "expiry_date" : "25th October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten" : "yes",
+    "location" : "98195"
+
 }
+]
