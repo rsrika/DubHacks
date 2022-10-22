@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { useNavigate } from 'react-router';
+import "./css/style.css";
+//import 'animate.css';
+import {NavBar} from './js/Navbar.js';
+import {Home} from './js/Home.js';
+import {Journey} from './js/Journey.js';
 
-function App() {
+
+function App(props) {
+  let navigate = useNavigate();
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    // rendering the app
+   <div>
+    <Routes>
+      <Route path="/" element={
+        <>
+          {/* put components here */      
+              <Home data={coupons}/>
+          }
+        </>
+      } />
+    </Routes>
+   </div>
   );
 }
 
