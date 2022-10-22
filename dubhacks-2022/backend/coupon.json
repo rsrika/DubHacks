@@ -7,19 +7,999 @@
     "expiry_date" : "25th October 2022",
     "vegetarian" : "yes",
     "meat_type" : "",
-    "gluten" : "yes",
-    "location" : "98195"
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : ""
 },
 {
-    "name_product" : "Breyer's Ice Cream",
-    "name_compoany " : "Breyer",
+    "name_product" : "Ben and Jerry's Ice Cream",
+    "name_compoany " : "Ben and Jerry's",
     "type" : "ice cream",
     "store_name" : "QFC",
     "expiry_date" : "25th October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "3.2",
+    "final_price" : "3.79"
+
+},
+
+{
+    "name_product" : "Qfc Milk",
+    "name_compoany " : "Kroger",
+    "type" : "milk",
+    "store_name" : "QFC",
+    "expiry_date" : "25th October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : ".6",
+    "final_price" : "1.29"
+
+},
+{
+    "name_product" : "Kroger Ground Coffee",
+    "name_compoany " : "Kroger",
+    "type" : "coffee",
+    "store_name" : "QFC",
+    "expiry_date" : "25th October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "2.5",
+    "final_price" : ""
+
+},
+{
+    "name_product" : "Kroger Supreme Blend Medium Roast Ground Coffee",
+    "name_compoany " : "Kroger",
+    "type" : "coffee",
+    "store_name" : "QFC",
+    "expiry_date" : "25th October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "2.5",
+    "final_price" : ""
+
+},
+{
+    "name_product" : "Fettuccine Pasta",
+    "name_compoany " : "American Beauty",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "14 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".4",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Long Spaghetti Pasta",
+    "name_compoany " : "American Beauty",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "14 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".4",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Elbow Macaroni Pasta",
+    "name_compoany " : "American Beauty",
+    "type" : "short pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "14 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".4",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Bow Ties Pasta",
+    "name_compoany " : "American Beauty",
+    "type" : "short pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "14 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".4",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Organic Chicken & Vegetable Potstickers",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
     "vegetarian" : "no",
     "meat_type" : "chicken",
-    "gluten" : "yes",
-    "location" : "98195"
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Organic Vegetable Dumplings",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Korean Style Chicken & Vegetable Mini Wontons",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Korean Style Pork & Vegetable Mini Wontons",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "pork",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Mandu Chicken Bulgogi Dumplings",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Mandu Beef & Vegetable Dumplings",
+    "name_compoany " : "Bibigo",
+    "type" : "frozen dumplings",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.5",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Fettucine Alfredo Pasta Sides",
+    "name_compoany " : "Knorr",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : " Chicken Fettuccine Pasta Sides",
+    "name_compoany " : "Knorr",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Stroganoff Fettuccine Pasta Sides",
+    "name_compoany " : "Knorr",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Parmesan Pasta Sides",
+    "name_compoany " : "Knorr",
+    "type" : "long pasta",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Chicken Long Grain Rice and Vermicelli Pasta Blend Rice Sides",
+    "name_compoany " : "Knorr",
+    "type" : "rice",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Rice Sides Spanish Rice",
+    "name_compoany " : "Knorr",
+    "type" : "rice",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Rice Sides Mexican Rice",
+    "name_compoany " : "Knorr",
+    "type" : "rice",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1.04",
+    "final_price" : "1.25"
+
+},
+{
+    "name_product" : "Butcher's Blend Burger Patties",
+    "name_compoany " : "Schweid & Sons",
+    "type" : "burgers",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "4",
+    "final_price" : "6.99"
+
+},
+{
+    "name_product" : "Signature Series Chuck Brisket Burger Patties",
+    "name_compoany " : "Schweid & Sons",
+    "type" : "burgers",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "4",
+    "final_price" : "6.99"
+
+},
+{
+    "name_product" : "Apple Juice from Concentrate",
+    "name_compoany " : "Kroger",
+    "type" : "juice",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : ".8",
+    "final_price" : "1.89"
+
+},
+{
+    "name_product" : "Zero Salt Bouillon",
+    "name_compoany " : "Knorr",
+    "type" : "chicken bouillon",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".75",
+    "final_price" : "3.49"
+
+},
+{
+    "name_product" : "Sour Cream",
+    "name_compoany " : "Good Culture",
+    "type" : "sour cream",
+    "store_name" : "QFC",
+    "expiry_date" : "5 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "3.49"
+
+},
+{
+    "name_product" : "Sour Cream",
+    "name_compoany " : "Kroger",
+    "type" : "sour cream",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : ".6",
+    "final_price" : "1.79"
+
+},
+{
+    "name_product" : "Butcher's Blend Burger Patties",
+    "name_compoany " : "Schweid & Sons",
+    "type" : "burgers",
+    "store_name" : "QFC",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "4",
+    "final_price" : "6.99"
+
+},
+{
+    "name_product" : "Ancient Grain Pancake Mix",
+    "name_compoany " : "Purely Elizabeth",
+    "type" : "pancake mix",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "6.99"
+
+},
+{
+    "name_product" : "Paleo Grain-Free Pancake Mix",
+    "name_compoany " : "Purely Elizabeth",
+    "type" : "pancake mix",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "6.99"
+
+},
+{
+    "name_product" : "Classic Cinnamon Superfood Oatmeal",
+    "name_compoany " : "Purely Elizabeth",
+    "type" : "oatmeal",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "6.49"
+
+},
+{
+    "name_product" : "Ancient Grain Pumpkin Fig Granola Clusters",
+    "name_compoany " : "Purely Elizabeth",
+    "type" : "granola",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "5.23"
+
+},
+{
+    "name_product" : "Flips Low-Fat Greek Yogurt",
+    "name_compoany " : "Chobani",
+    "type" : "yogurt",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".6",
+    "final_price" : "1.67"
+
+},
+{
+    "name_product" : "Blended Vanilla Lowfat Yogurt",
+    "name_compoany " : "Kroger",
+    "type" : "yogurt",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".45",
+    "final_price" : "2.79"
+
+},
+{
+    "name_product" : "Flips Low-Fat Greek Yogurt",
+    "name_compoany " : "Chobani",
+    "type" : "yogurt",
+    "store_name" : "QFC",
+    "expiry_date" : "22 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : ".6",
+    "final_price" : "1.67"
+
+},
+{
+    "name_product" : "Frozen Homestyle Egg Noodles",
+    "name_compoany " : "Reames",
+    "type" : "egg noodles",
+    "store_name" : "QFC",
+    "expiry_date" : "27 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : ".5",
+    "final_price" : "3.79"
+
+},
+{
+    "name_product" : "Fresh Mozzarella Cheese",
+    "name_compoany " : "Belgioioso",
+    "type" : "mozzarella cheese",
+    "store_name" : "QFC",
+    "expiry_date" : "05 November 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "1",
+    "final_price" : "6.49"
+
+},
+{
+    "name_product" : "100% Apple Juice",
+    "name_compoany " : "Signature SELECT",
+    "type" : "apple juice",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".99"
+
+},
+{
+    "name_product" : "Bacon",
+    "name_compoany " : "Smithfield",
+    "type" : "bacon",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "pork",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "4.99"
+
+},
+{
+    "name_product" : "Yogurt",
+    "name_compoany " : "Yoplait",
+    "type" : "single serve yogurt",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".49"
+
+},
+{
+    "name_product" : "Brownie Mix",
+    "name_compoany " : "Duncan Hines Frosting",
+    "type" : "brownie mix",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Cake Mix",
+    "name_compoany " : "Duncan Hines Frosting",
+    "type" : "cake mix",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Tomato Condensed Soup",
+    "name_compoany " : "Campbell's",
+    "type" : "soup",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".99"
+
+},
+{
+    "name_product" : "Rice Chex",
+    "name_compoany " : "General Mills",
+    "type" : "cereal",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Cheerios",
+    "name_compoany " : "General Mills",
+    "type" : "cereal",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Cinnamon Toast Crunch",
+    "name_compoany " : "General Mills",
+    "type" : "cereal",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Taco Shells",
+    "name_compoany " : "Old El Paso",
+    "type" : "taco shells",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.29"
+
+},
+{
+    "name_product" : "Long Grain Rice",
+    "name_compoany " : "Signature SELECT",
+    "type" : "rice",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.29"
+
+},
+{
+    "name_product" : "Sliced Cheese",
+    "name_compoany " : "Tillamook",
+    "type" : "cheese",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Shredded Cheese",
+    "name_compoany " : "Tillamook",
+    "type" : "cheese",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "3.19"
+
+},
+{
+    "name_product" : "Unsalted Butter",
+    "name_compoany " : "Tillamook",
+    "type" : "butter",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Sea Salted Extra Creamy Butter",
+    "name_compoany " : "Tillamook",
+    "type" : "butter",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "5.99"
+
+},
+{
+    "name_product" : "Creamy Peanut Butter",
+    "name_compoany " : "Skippy",
+    "type" : "peanut butter",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "5"
+
+},
+{
+    "name_product" : "Macaroni & Cheese",
+    "name_compoany " : "Kraft",
+    "type" : "short pasta",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "5"
+
+},
+{
+    "name_product" : "Boneless Skinless Chicken Breasts",
+    "name_compoany " : "O Organics",
+    "type" : "chicken",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "8.99"
+
+},
+{
+    "name_product" : "Honeycrisp Apple",
+    "name_compoany " : "Safeway",
+    "type" : "apples",
+    "store_name" : "Safeway",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Uncured Beef Franks",
+    "name_compoany " : "Oscar Mayer",
+    "type" : "hot dogs",
+    "store_name" : "Target",
+    "expiry_date" : "29 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "beef",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.99"
+
+},
+{
+    "name_product" : "Sliced Provolone Cheese",
+    "name_compoany " : "Good & Gather",
+    "type" : "cheese",
+    "store_name" : "Target",
+    "expiry_date" : "29 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Sliced Cheddar Cheese",
+    "name_compoany " : "Good & Gather",
+    "type" : "cheese",
+    "store_name" : "Target",
+    "expiry_date" : "29 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Brownie Mix",
+    "name_compoany " : "Betty Crocker",
+    "type" : "brownie mix",
+    "store_name" : "Target",
+    "expiry_date" : "29 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.39"
+
+},
+{
+    "name_product" : "Epic Salted Caramel Brownie Kit",
+    "name_compoany " : "Duncan Hines Frosting",
+    "type" : "brownie mix",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Organic Oat Plant-based Beverage",
+    "name_compoany " : "Pacific Foods",
+    "type" : "milk alternatives",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".99"
+
+},
+{
+    "name_product" : "Original Boneless Pork Loin Filet",
+    "name_compoany " : "AdapTable",
+    "type" : "pork",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "pork",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "4.99"
+
+},
+{
+    "name_product" : "Organic Chicken Sausage",
+    "name_compoany " : "Bilinski's",
+    "type" : "hot dogs",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "chicken",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "4.99"
+
+},
+{
+    "name_product" : "Maple Turkey Bacon",
+    "name_compoany " : "Godshall's",
+    "type" : "bacon",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "no",
+    "meat_type" : "turkey",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.99"
+
+},
+{
+    "name_product" : "Vanilla Oat Creamer",
+    "name_compoany " : "Silk",
+    "type" : "milk alternatives",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Almond Milk",
+    "name_compoany " : "Califia",
+    "type" : "milk alternatives",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".99"
+
+},
+{
+    "name_product" : "Four Cheese Mac & Freak",
+    "name_compoany " : "Freak Flag",
+    "type" : "short pasta",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "no",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : ".99"
+
+},
+{
+    "name_product" : "Dairy Free Heavy Whipping Cream",
+    "name_compoany " : "Silk",
+    "type" : "heavy cream",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "1.99"
+
+},
+{
+    "name_product" : "Reduced Fat Fresh Butter",
+    "name_compoany " : "Kerrygold",
+    "type" : "butter",
+    "store_name" : "Grocery Outlet",
+    "expiry_date" : "25 October 2022",
+    "vegetarian" : "yes",
+    "meat_type" : "",
+    "gluten_free" : "yes",
+    "location" : "98195",
+    "savings" : "",
+    "final_price" : "2.49"
 
 }
+
+
+
+
+
+
+
+
+
 ]
