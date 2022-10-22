@@ -8,7 +8,9 @@
     "vegetarian" : "yes",
     "meat_type" : "",
     "gluten" : "yes",
-    "location" : "98195"
+    "location" : "98195", 
+    "image": "image_url", 
+    "qr": "qr_code "
 },
 {
     "name_product" : "Breyer's Ice Cream",
@@ -19,7 +21,9 @@
     "vegetarian" : "no",
     "meat_type" : "chicken",
     "gluten" : "yes",
-    "location" : "98195"
+    "location" : "98195", 
+    "image": "image_url", 
+    "qr": "qr_code "
 
 }
 ]
