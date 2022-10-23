@@ -71,7 +71,7 @@
       }
     }
     console.log(ingredients);
-    return ingredients;
+    return ingredients; // returns the ingredients for the recipe
   }
 
   function getCoupons(ingredient_list){

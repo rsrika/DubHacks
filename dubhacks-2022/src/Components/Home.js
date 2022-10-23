@@ -1,3 +1,7 @@
+import React from 'react'
+import { useNavigate } from 'react-router';
+import {Redirect} from 'react-router-dom';
+
 // displays coupons
 export function Cards(props) {
   
@@ -20,13 +24,14 @@ export function Cards(props) {
   }
 
 function CardGridView(props) {
-    
+    let navigate = useNavigate();
+    let url = "/recipes/" + props.card.name_product.split(" ").join("").toString();  
+   
     return(
-      <div  key={props.card.competitorname} className="card">
+      <div  className="card" onClick= {() => {navigate(url)}}>
         <img className="card-img-top" src={props.card.image} alt={props.card.name_product}/>
         <div className="card-body">
             <p className="card-title h5">{props.card.name_product}</p>
-            <p>put the QR code here</p>
         </div>
       </div>
     );

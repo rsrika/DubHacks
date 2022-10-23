@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+/*-- grid view --*/
+.cardpoolGrid {
+    display: inline-flex;
+}
+.cardpoolGrid .card {
+    flex:1;
+    margin: 0.5rem;
+}
+.cardpoolGrid .card img {
+    border-radius: 10px;
+}
+.cardpoolGrid .card-img-top {
+    width: auto;
+}
+.cardpoolGrid .stars {
+    padding-left: 1%;
+}
+.cardpoolGrid .card-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #727272;
+    color: #eee;
+    text-align: center;
+}
+.cardpoolGrid .card p {
+    font-size: 1rem;
+    font-weight: bold;
+}

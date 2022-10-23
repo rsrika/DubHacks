@@ -32,7 +32,7 @@ export function NavBar(props) {
                                     () => {
                                         props.handleClickResume()
                                     }
-                            }>Recipes</button>
+                            }>Resume</button>
                         </li>
                         <li>
                             <button className="fs-6 navlink about hover4 hover4-1" d
@@ -40,7 +40,7 @@ export function NavBar(props) {
                                     () => {
                                         props.handleClickAbout()
                                     }
-                            }>Profile</button>
+                            }>About</button>
                         </li>
                     </ul>
                 </div>
