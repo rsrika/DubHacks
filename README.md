@@ -1,6 +1,6 @@
 # DubHacks 2022 Project: ThriftEats
 
-# Project Contributors: Aaminah Alam, Elizabeth Deng,  Soham Raut, & Roshni Srikanth
+## Project Contributors: Aaminah Alam, Elizabeth Deng,  Soham Raut, & Roshni Srikanth
 
 ## Date: October 23, 2022
 
