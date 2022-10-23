@@ -2,8 +2,18 @@
 // importing the right modules
  
 import {useParams} from 'react-router-dom';
+import { getRecipes } from '../backend/recipes.js';
 
 
+function Recipes(props) {
+    let rec = getRecipes(props);
+    console.log("rec" , rec);
+    return rec.map((r) => {
+        return (<p>{r.title}</p>);
+    }
+
+    );
+}
 // renders the actual component
 export function Indv(props) {
     // the page will get the object from the url that the page goes to 
@@ -30,12 +40,14 @@ export function Indv(props) {
          
         </div>
         <div className="card-body candy-detail">
-          <p> putting recipe information here</p>
+            <div>{Recipes(coupon.type)}</div>
         </div>
       </div>
       
     </div>);
   }
+
+ 
 
 
 

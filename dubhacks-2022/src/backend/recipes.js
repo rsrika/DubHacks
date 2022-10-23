@@ -119,7 +119,7 @@
 
   // //window.addEventListener("load", init);
   const URL = "https://api.spoonacular.com/recipes/findByIngredients";
-  const API_KEY = "?apiKey=fb2dc77816d7432c89b890648a8b5ca3";
+  const API_KEY = "?apiKey=22e0579217f64e189d881c329014c373";
   const RECIPES = "https://api.spoonacular.com/recipes/";
 
   // // function init() {
@@ -129,7 +129,7 @@
 
   let title_array = [];
   let steps_array = [];
-  getRecipes("milk")
+  
 
   //takes in coupon "type" and returns all recipes
   export function getRecipes(ingredient){
@@ -198,16 +198,16 @@
 
   // }
 
-  function processData(res) {
-    for (let i = 0; i < res.length; i++) {
-      //console.log(i);
-      fetch(RECIPES + res[i].id + "/analyzedInstructions" + API_KEY)
-        .then(res => res.json())
-        .then(getRecipeData)
-        .then(getCoupons);
+  // function processData(res) {
+  //   for (let i = 0; i < res.length; i++) {
+  //     //console.log(i);
+  //     fetch(RECIPES + res[i].id + "/analyzedInstructions" + API_KEY)
+  //       .then(res => res.json())
+  //       .then(getRecipeData)
+  //       .then(getCoupons);
 
-    }
-  }
+  //   }
+  // }
 
   // function getRecipeData(recipe) {
   //   let ingredients = [];

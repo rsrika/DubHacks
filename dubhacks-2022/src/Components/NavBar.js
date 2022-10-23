@@ -1,6 +1,8 @@
 import React from 'react';
-import 'animate.css';
-export function NavBar(props) {
+import { useNavigate } from 'react-router';
+
+export function NavBar() {
+    let navigate = useNavigate();
 
     return (
         <div className="nav">
@@ -14,7 +16,7 @@ export function NavBar(props) {
                             <button className="fs-6 navlink home active hover1 hover1-1"
                                 onClick={
                                     () => {
-                                        props.handleClickHome()
+                                        navigate("/home")
                                     }
                             }>Home</button>
                         </li>
@@ -22,7 +24,7 @@ export function NavBar(props) {
                             <button className="fs-6 navlink work hover2 hover2-1"
                                 onClick={
                                     () => {
-                                        props.handleClickWork()
+                                        navigate("/coupons")
                                     }
                             }>Coupons</button>
                         </li>
@@ -30,17 +32,17 @@ export function NavBar(props) {
                             <button className="fs-6 navlink resume hover3 hover3-1"
                                 onClick={
                                     () => {
-                                        props.handleClickResume()
+                                        navigate("/recipes");
                                     }
-                            }>Resume</button>
+                            }>Recipes</button>
                         </li>
                         <li>
                             <button className="fs-6 navlink about hover4 hover4-1" d
                                 onClick={
                                     () => {
-                                        props.handleClickAbout()
+                                        navigate("/profile")
                                     }
-                            }>About</button>
+                            }>Profile</button>
                         </li>
                     </ul>
                 </div>

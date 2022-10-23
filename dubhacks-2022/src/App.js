@@ -3,12 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
 //import 'animate.css';
-import {Cards} from './Components/Home.js';
+import {CouponsPage} from './Components/Home.js';
 import {Indv} from './Components/indv.js'
-
+import {NavBar} from './Components/NavBar.js'
 
 function App(props) {
-  let navigate = useNavigate();
   
 
   return (
@@ -16,22 +15,67 @@ function App(props) {
     // rendering the app
    <div>
     <Routes>
-      <Route path="/" element={
-        <>
-          {/* put components here */      
-              <Cards data={props.data}/>
-          }
-        </>
-      } />
-      
       <Route path="/recipes/:coupon_name" element={
+              <> {
+                <div>
+                  <NavBar/>
+                  <Indv data={[].concat(props.data)}/>
+                </div>
+             
+              
+              }
+              </>
+        } />
+
+      <Route path="/recipes" element={
             <> {
              
-            <Indv data={[].concat(props.data)}/>
+              <div>
+                <NavBar/>
+                  
+              </div>
+            
              
             }
             </>
       } />
+
+      <Route path="/coupons" element={
+            <> {
+             
+            <div>
+              <NavBar/>
+              <CouponsPage data={props.data}/>
+            </div>
+             
+            }
+            </>
+      } />
+
+      <Route path="/profile" element={
+        <>
+          {/* put components here */      
+            <div>
+              <NavBar/>
+                 
+             </div>
+           
+          }
+        </>
+      } />
+
+      <Route path="/" element={
+        <>
+          {/* put components here */      
+            <div>
+              <NavBar/>
+            </div>
+          
+          }
+        </>
+      } />
+      
+      
     </Routes>
    </div>
   );
