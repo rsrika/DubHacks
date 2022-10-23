@@ -2,118 +2,120 @@
 
 
 
-  let coupons = [
-    {
-        "name_product" : "Breyer's Ice Cream",
-        "name_company" : "Breyer",
-        "type" : "ice cream",
-        "store_name" : "QFC",
-        "expiry_date" : "25th October 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten" : "yes",
-        "location" : "98195",
-        "savings" : "1",
-        "final_price" : ""
-    },
-    {
-        "name_product" : "Ben and Jerry's Ice Cream",
-        "name_company" : "Ben and Jerry's",
-        "type" : "ice cream",
-        "store_name" : "QFC",
-        "expiry_date" : "25th October 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "no",
-        "location" : "98195",
-        "savings" : "3.2",
-        "final_price" : "3.79"
+  // let coupons = [
+  //   {
+  //       "name_product" : "Breyer's Ice Cream",
+  //       "name_company" : "Breyer",
+  //       "type" : "ice cream",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "25th October 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten" : "yes",
+  //       "location" : "98195",
+  //       "savings" : "1",
+  //       "final_price" : ""
+  //   },
+  //   {
+  //       "name_product" : "Ben and Jerry's Ice Cream",
+  //       "name_company" : "Ben and Jerry's",
+  //       "type" : "ice cream",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "25th October 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "no",
+  //       "location" : "98195",
+  //       "savings" : "3.2",
+  //       "final_price" : "3.79"
 
-    },
+  //   },
 
-    {
-        "name_product" : "Qfc Milk",
-        "name_company" : "Kroger",
-        "type" : "milk",
-        "store_name" : "QFC",
-        "expiry_date" : "25th October 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "yes",
-        "location" : "98195",
-        "savings" : ".6",
-        "final_price" : "1.29"
+  //   {
+  //       "name_product" : "Qfc Milk",
+  //       "name_company" : "Kroger",
+  //       "type" : "milk",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "25th October 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "yes",
+  //       "location" : "98195",
+  //       "savings" : ".6",
+  //       "final_price" : "1.29"
 
-    },
-    {
-        "name_product" : "Kroger Ground Coffee",
-        "name_company" : "Kroger",
-        "type" : "coffee",
-        "store_name" : "QFC",
-        "expiry_date" : "25th October 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "yes",
-        "location" : "98195",
-        "savings" : "2.5",
-        "final_price" : ""
+  //   },
+  //   {
+  //       "name_product" : "Kroger Ground Coffee",
+  //       "name_company" : "Kroger",
+  //       "type" : "coffee",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "25th October 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "yes",
+  //       "location" : "98195",
+  //       "savings" : "2.5",
+  //       "final_price" : ""
 
-    },
-    {
-        "name_product" : "Kroger Supreme Blend Medium Roast Ground Coffee",
-        "name_company" : "Kroger",
-        "type" : "coffee",
-        "store_name" : "QFC",
-        "expiry_date" : "25th October 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "yes",
-        "location" : "98195",
-        "savings" : "2.5",
-        "final_price" : ""
+  //   },
+  //   {
+  //       "name_product" : "Kroger Supreme Blend Medium Roast Ground Coffee",
+  //       "name_company" : "Kroger",
+  //       "type" : "coffee",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "25th October 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "yes",
+  //       "location" : "98195",
+  //       "savings" : "2.5",
+  //       "final_price" : ""
 
-    },
-    {
-        "name_product" : "Fettuccine Pasta",
-        "name_company" : "American Beauty",
-        "type" : "long pasta",
-        "store_name" : "QFC",
-        "expiry_date" : "14 November 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "no",
-        "location" : "98195",
-        "savings" : ".4",
-        "final_price" : "3.19"
-    },
-    {
-        "name_product" : "Long Spaghetti Pasta",
-        "name_company" : "American Beauty",
-        "type" : "long pasta",
-        "store_name" : "QFC",
-        "expiry_date" : "14 November 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "no",
-        "location" : "98195",
-        "savings" : ".4",
-        "final_price" : "3.19"
-    },
-    {
-        "name_product" : "Elbow Macaroni Pasta",
-        "name_company" : "American Beauty",
-        "type" : "short pasta",
-        "store_name" : "QFC",
-        "expiry_date" : "14 November 2022",
-        "vegetarian" : "yes",
-        "meat_type" : "",
-        "gluten_free" : "no",
-        "location" : "98195",
-        "savings" : ".4",
-        "final_price" : "3.19"
+  //   },
+  //   {
+  //       "name_product" : "Fettuccine Pasta",
+  //       "name_company" : "American Beauty",
+  //       "type" : "long pasta",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "14 November 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "no",
+  //       "location" : "98195",
+  //       "savings" : ".4",
+  //       "final_price" : "3.19"
+  //   },
+  //   {
+  //       "name_product" : "Long Spaghetti Pasta",
+  //       "name_company" : "American Beauty",
+  //       "type" : "long pasta",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "14 November 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "no",
+  //       "location" : "98195",
+  //       "savings" : ".4",
+  //       "final_price" : "3.19"
+  //   },
+  //   {
+  //       "name_product" : "Elbow Macaroni Pasta",
+  //       "name_company" : "American Beauty",
+  //       "type" : "short pasta",
+  //       "store_name" : "QFC",
+  //       "expiry_date" : "14 November 2022",
+  //       "vegetarian" : "yes",
+  //       "meat_type" : "",
+  //       "gluten_free" : "no",
+  //       "location" : "98195",
+  //       "savings" : ".4",
+  //       "final_price" : "3.19"
 
-    }
-    ];
+  //   }
+  //   ];
+  import coupon_data from "./coupon.json";
+  let coupons = coupon_data;
 
   //window.addEventListener("load", init);
   const URL = "https://api.spoonacular.com/recipes/findByIngredients";
