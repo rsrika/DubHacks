@@ -127,6 +127,33 @@
   //   getApiData(ingredients);
   // }
 
+  let title_array = []
+
+  //takes in coupon "type" and returns all recipes
+  export function getRecipes(ingredient){
+    fetch(URL + API_KEY + "&ingredients=" + ingredient)
+    .then(res => res.json())
+    .then(iterateRecipeList)
+  }
+
+  export function iterateRecipeList(res){
+   for (let i = 0; i < res.length(); i++){
+    title_array[i] = {
+      "title" : res[i].title,
+      "image" : res[i].image
+    };
+   }
+   console.log(title_array)
+
+  }
+
+
+
+  
+  
+  
+  
+  
   export function getApiData(ingredients) {
     fetch(URL + API_KEY + "&ingredients=" + ingredients)
       .then(res => res.json())
