@@ -8,7 +8,9 @@ export function NavBar() {
         <div className="nav">
             <nav id="examples">
                 <div className="nav-sig">
-                    
+                    <div className="signature">
+                        <img src="./img/logotransparent 2.png" alt="logo"></img>
+                    </div>
                 </div>
                 <div className="links">
                     <ul className='example'>

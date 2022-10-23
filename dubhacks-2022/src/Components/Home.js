@@ -32,8 +32,8 @@ function CardGridView(props) {
     let url = "/recipes/" + props.card.name_product.split(" ").join("").toString();  
    
     return(
-      <div  className="card" >
-        <img className="card-img-top" src={props.card.image} alt={props.card.name_product} onClick= {() => {navigate(url)}}/>
+      <div  className="card" onClick= {() => {navigate(url)}}>
+        <img className="card-img-top" src={props.card.image} alt={props.card.name_product} />
         <div className="card-body">
             <p className="card-title h5">{props.card.name_product}</p>
         </div>
