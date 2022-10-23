@@ -129,7 +129,7 @@
 
   let title_array = [];
   let steps_array = [];
-  
+
 
   //takes in coupon "type" and returns all recipes
   export function getRecipes(ingredient){
@@ -242,16 +242,16 @@
     return arrayCoupon;
   }
 
-  //  export function searchCoupon(couponName) {
-  //   let result = [];
-  //   for (let i = 0; i < coupons.length; i++) {
-  //     let current = coupons[i];
-  //     if (current.name_product.includes(couponName) || current.name_company.includes(couponName) || current.store_name.includes(couponName) ||
-  //       current.type.includes(couponName)) {
-  //       result.push(current);
-  //     }
-  //   }
-  //   return result;
-  //}
+   export function searchCoupon(couponName) {
+    let result = [];
+    for (let i = 0; i < coupons.length; i++) {
+      let current = coupons[i];
+      if (current.name_product.includes(couponName) || current.name_company.includes(couponName) || current.store_name.includes(couponName) ||
+        current.type.includes(couponName)) {
+        result.push(current);
+      }
+    }
+    return result;
+  }
 
 
