@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# DubHacks 2022 Project: ThriftEats
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Contributors: Aaminah Alam, Elizabeth Deng,  Soham Raut, & Roshni Srikanth
 
-## Available Scripts
+## Date: October 23, 2022
 
-In the project directory, you can run:
+### Inspiration
+The idea for ThriftEats came from a messy stack of weekly ads on the kitchen table. As college students, the value of both time and money is incalculable— so why choose between wasting time parsing through dozens of deals every week, or wasting money due to being unaware of said deals? ThriftEats aims to streamline the budgeting, shopping, and planning process of buying groceries. Our goal is to maximize savings while minimizing stress.
 
-### `npm start`
+### What it Does
+The ThriftEats site first asks users to input their location, preferred stores, and dietary preferences. Then it searches the web, constantly updating the newest deals and discounts at local stores. Using these low prices, it concatenates ingredients on sale with ingredients the user already has on hand to generate possible recipes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### How We Built It
+yall gotta help with this part bc i Don't Know lol
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Challenges We Ran Into
+One of our biggest roadblocks was the lack of an existing API of grocery coupons and deals. Our temporary stand-in solution was the coupon.json file, which contains a few manually-entered entries of current deals at stores in the 98195 area.
+Another issue we faced was (lorem ipsum what we're struggling with code-wise)
 
-### `npm test`
+### Accomplishments We're Proud Of
+It was really cool to slowly build functionality for the site from the ground up using React. We also learned how to host our site on the cloud through this project. Additionally, the dedication and teamwork throughout these 28 hours was a shining point in this experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What We Learned
+lorem ipsum fill this part in later, need help describing challenges with code
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### What's Next for ThriftEats
+Some additional functionalities to be added:
+1. Allowing user to input ingredients that they already have on hand.
+2. Figuring out a sustainable long-term solution for scraping deals and discounts from the web.
+3. Allowing for more filters in addition to vegetarian and gluten free, e.g. dairy-free, vegan, kosher, halal, etc.
