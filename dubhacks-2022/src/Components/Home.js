@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router';
 import {Redirect} from 'react-router-dom';
+import { getApiData } from '../backend/recipes.js';
 
 // displays coupons
 export function Cards(props) {
@@ -32,6 +33,7 @@ function CardGridView(props) {
         <img className="card-img-top" src={props.card.image} alt={props.card.name_product}/>
         <div className="card-body">
             <p className="card-title h5">{props.card.name_product}</p>
+            <p>{getApiData(props.card.type)}</p>
         </div>
       </div>
     );

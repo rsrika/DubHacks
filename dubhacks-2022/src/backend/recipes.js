@@ -1,6 +1,6 @@
 "use strict";
 
-(function() {
+
 
   let coupons = [
     {
@@ -28,31 +28,33 @@
     }
     ];
 
-  window.addEventListener("load", init);
+  //window.addEventListener("load", init);
   const URL = "https://api.spoonacular.com/recipes/findByIngredients";
-  const API_KEY = "?apiKey=329c92017f254cae8e17b4e9d04cb88e";
+  const API_KEY = "?apiKey=feb2d89aac144b08812cc8341fa2e50c";
   const RECIPES = "https://api.spoonacular.com/recipes/";
 
-  function init() {
-    let ingredients = "apples, flour, sugar"
-    getApiData(ingredients);
-  }
+  // function init() {
+  //   let ingredients = "apples, flour, sugar"
+  //   getApiData(ingredients);
+  // }
 
-  function getApiData(ingredients) {
+  export function getApiData(ingredients) {
     fetch(URL + API_KEY + "&ingredients=" + ingredients)
       .then(res => res.json())
-      .then(processData)
-      .catch(handleError);
+      .then(processData);
+      
+      
+    
   }
 
   function processData(res) {
     for (let i = 0; i < res.length; i++) {
-      console.log(i);
+      //console.log(i);
       fetch(RECIPES + res[i].id + "/analyzedInstructions" + API_KEY)
         .then(res => res.json())
         .then(getRecipeData)
-        .then(getCoupons)
-        .catch(handleError);
+        .then(getCoupons);
+        
     }
   }
 
@@ -90,4 +92,3 @@
     return arrayCoupon;
   }
 
-})();
