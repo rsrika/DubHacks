@@ -128,35 +128,75 @@
   // // }
 
   let title_array = [];
+  let steps_array = [];
+  getRecipes("milk")
 
   //takes in coupon "type" and returns all recipes
   export function getRecipes(ingredient){
-    fetch(URL + API_KEY + "&ingredients=" + ingredient)
-    .then(res => res.json())
-    .then(iterateRecipeList);
-  }
-
-  //iterates through recipe list, gives only title and image src
-  export function iterateRecipeList(res){
-   for (let i = 0; i < res.length; i++){
-    title_array[i] = {
-      "title" : res[i].title,
-      "image" : res[i].image
-    };
+     fetch(URL + API_KEY + "&ingredients=" + ingredient)
+     .then(res => res.json())
+     .then(iterateRecipeList);
    }
-   console.log(title_array);
+
+  // iterates through recipe list, gives only title, image, id
+   export function iterateRecipeList(res){
+    title_array = [];
+    for (let i = 0; i < res.length; i++){
+     title_array[i] = {
+       "title" : res[i].title,
+       "image" : res[i].image,
+       "id" : res[i].id
+     };
+    }
+    console.log(title_array);
   }
 
-
-  export function getApiData(ingredients) {
-    fetch(URL + API_KEY + "&ingredients=" + ingredients)
+  // given recipe id, get recipe info
+  export function getRecipeInfo(id) {
+    fetch(RECIPES + id + "/analyzedInstructions" + API_KEY)
       .then(res => res.json())
-      .then(processData);
+      .then(getRecipeIngredients);
   }
 
-  function getRecipeInfo(res) {
-
+  // get steps
+  export function getRecipeSteps(recipe) {
+    steps_array = [];
+    for (let i = 0; i < recipe.length; i++) {
+      let steps = recipe[i].steps;
+      for (let j = 0; j < steps.length; j++) {
+        steps_array.push(steps[j].step);
+      }
+    }
+    return steps_array;
   }
+
+  export function getRecipeIngredients(recipe) {
+    let ingredients_array = [];
+    for (let i = 0; i < recipe.length; i++) {
+      let steps = recipe[i].steps;
+      for (let j = 0; j < steps.length; j++) {
+        if (steps[j].ingredients) {
+          for (let k = 0; k < steps[j].ingredients.length; k++) {
+            if (!ingredients_array.includes(steps[j].ingredients[k].name)) {
+              ingredients_array.push(steps[j].ingredients[k].name);
+            }
+          }
+        }
+      }
+    }
+    return ingredients_array;
+  }
+
+
+  // export function getApiData(ingredients) {
+  //   fetch(URL + API_KEY + "&ingredients=" + ingredients)
+  //     .then(res => res.json())
+  //     .then(processData);
+  // }
+
+  // function getRecipeInfo(res) {
+
+  // }
 
   function processData(res) {
     for (let i = 0; i < res.length; i++) {
@@ -169,22 +209,22 @@
     }
   }
 
-  function getRecipeData(recipe) {
-    let ingredients = [];
-    for (let i = 0; i < recipe.length; i++) {
-      let steps = recipe[i].steps;
-      ingredients = [];
-      for (let j = 0; j < steps.length; j++) {
-        for (let k = 0; k < steps[j].ingredients.length; k++) {
-          let item = steps[j].ingredients[k].name;
-          if (!ingredients.includes(item)) {
-            ingredients.push(item);
-          }
-        }
-      }
-    }
-    return ingredients;
-  }
+  // function getRecipeData(recipe) {
+  //   let ingredients = [];
+  //   for (let i = 0; i < recipe.length; i++) {
+  //     let steps = recipe[i].steps;
+  //     ingredients = [];
+  //     for (let j = 0; j < steps.length; j++) {
+  //       for (let k = 0; k < steps[j].ingredients.length; k++) {
+  //         let item = steps[j].ingredients[k].name;
+  //         if (!ingredients.includes(item)) {
+  //           ingredients.push(item);
+  //         }
+  //       }
+  //     }
+  //   }
+  //   return ingredients;
+  // }
 
   function getCoupons(ingredient_list){
     let coupon = processCouponData(coupons, ingredient_list);
@@ -202,16 +242,16 @@
     return arrayCoupon;
   }
 
-   export function searchCoupon(couponName) {
-    let result = [];
-    for (let i = 0; i < coupons.length; i++) {
-      let current = coupons[i];
-      if (current.name_product.includes(couponName) || current.name_company.includes(couponName) || current.store_name.includes(couponName) ||
-        current.type.includes(couponName)) {
-        result.push(current);
-      }
-    }
-    return result;
-  }
+  //  export function searchCoupon(couponName) {
+  //   let result = [];
+  //   for (let i = 0; i < coupons.length; i++) {
+  //     let current = coupons[i];
+  //     if (current.name_product.includes(couponName) || current.name_company.includes(couponName) || current.store_name.includes(couponName) ||
+  //       current.type.includes(couponName)) {
+  //       result.push(current);
+  //     }
+  //   }
+  //   return result;
+  //}
 
 
