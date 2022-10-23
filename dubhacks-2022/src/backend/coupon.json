@@ -7,8 +7,8 @@
     "expiry_date" : "25th October 2022",
     "vegetarian" : "yes",
     "meat_type" : "",
-    "gluten_free" : "yes",
-    "location" : "98195",
+    "gluten" : "yes",
+    "location" : "98195", 
     "savings" : "1",
     "final_price" : ""
 },
