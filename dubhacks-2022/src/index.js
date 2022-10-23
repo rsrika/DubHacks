@@ -12,7 +12,7 @@ root.render(
     <BrowserRouter>
       <App data={coupon_data}/>
     </BrowserRouter>
-    
+
   </React.StrictMode>
 );
 
