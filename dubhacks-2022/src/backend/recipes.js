@@ -117,43 +117,37 @@
   import coupon_data from "./coupon.json";
   let coupons = coupon_data;
 
-  //window.addEventListener("load", init);
+  // //window.addEventListener("load", init);
   const URL = "https://api.spoonacular.com/recipes/findByIngredients";
-  const API_KEY = "?apiKey=feb2d89aac144b08812cc8341fa2e50c";
+  const API_KEY = "?apiKey=fb2dc77816d7432c89b890648a8b5ca3";
   const RECIPES = "https://api.spoonacular.com/recipes/";
 
-  // function init() {
-  //   let ingredients = "apples, flour, sugar"
-  //   getApiData(ingredients);
-  // }
+  // // function init() {
+  // //   let ingredients = "apples, flour, sugar"
+  // //   getApiData(ingredients);
+  // // }
 
-  let title_array = []
+  let title_array = [];
 
   //takes in coupon "type" and returns all recipes
   export function getRecipes(ingredient){
     fetch(URL + API_KEY + "&ingredients=" + ingredient)
     .then(res => res.json())
-    .then(iterateRecipeList)
+    .then(iterateRecipeList);
   }
 
+  //iterates through recipe list, gives only title and image src
   export function iterateRecipeList(res){
-   for (let i = 0; i < res.length(); i++){
+   for (let i = 0; i < res.length; i++){
     title_array[i] = {
       "title" : res[i].title,
       "image" : res[i].image
     };
    }
-   console.log(title_array)
-
+   console.log(title_array);
   }
 
 
-
-  
-  
-  
-  
-  
   export function getApiData(ingredients) {
     fetch(URL + API_KEY + "&ingredients=" + ingredients)
       .then(res => res.json())
@@ -171,7 +165,7 @@
         .then(res => res.json())
         .then(getRecipeData)
         .then(getCoupons);
-        
+
     }
   }
 
