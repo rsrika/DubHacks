@@ -3,9 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
 //import 'animate.css';
-import {NavBar} from './js/Navbar.js';
-import {Home} from './js/Home.js';
-import {Journey} from './js/Journey.js';
+import {Cards} from './js/Home.js';
 
 
 function App(props) {
@@ -20,7 +18,7 @@ function App(props) {
       <Route path="/" element={
         <>
           {/* put components here */      
-              <Home data={coupons}/>
+              <Cards data={props.data}/>
           }
         </>
       } />
